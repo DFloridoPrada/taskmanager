@@ -4,7 +4,7 @@ Este proyecto se realizará de forma incremental, dividido en fases. Cada fase t
 
 ---
 
-## **Estructura de las Fases**
+## **Estructura de las Fases** aa
 
 - **Fase 0:** Familiarización con el entorno de trabajo.  
 - **Fase 1:** Configuración inicial del proyecto y base de datos.  
