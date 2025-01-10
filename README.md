@@ -122,7 +122,13 @@ CREATE TABLE tareas (
 );
 ```
 
-2. Añadir tablas adicionales según necesidades futuras, en fases posteriores.
+2. Ejecutar el script en el servidor MySQL, y crear un usuario especifico para esta base de datos, con permisos para SELECT, INSERT, UPDATE y DELETE
+```sql
+CREATE USER 'tareas_app'@'localhost' identified by '1234';
+GRANT SELECT, INSERT, UPDATE, DELETE on tareas_app.* to 'tareas_app'@'localhost';
+```
+
+4. Añadir tablas adicionales según necesidades futuras, en fases posteriores.
 
 ### 3. **Configurar Composer**
 
@@ -197,10 +203,10 @@ Objetivo: Implementar un sistema de enrutamiento y centralizar el acceso a trav�
 Crear el archivo `.htaccess` en la carpeta `/public`:
 
 ```apache
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
+RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
 ```
 
 ### 2. **Crear un enrutador**
