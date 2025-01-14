@@ -1,0 +1,26 @@
+{
+  "name": "trabajo-mvc-dfloridoprada",
+  "version": "1.0.0",
+  "description": "Este proyecto se realizará de forma incremental, dividido en fases. Cada fase tiene objetivos claros que deben cumplirse antes de pasar a la siguiente. Se trabajará siguiendo buenas prácticas y aprendiendo a gestionar un proyecto con Composer, MVC, y Git.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwes2425cm/trabajo-mvc-DFloridoPrada.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwes2425cm/trabajo-mvc-DFloridoPrada/issues"
+  },
+  "homepage": "https://github.com/dwes2425cm/trabajo-mvc-DFloridoPrada#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
