@@ -31,6 +31,7 @@ The main objective of this project is to:
 - Practice **session management** and data handling with PHP.
 - Gain hands-on experience working with **databases** (CRUD operations).
 - Master **Tailwind CSS** to create a modern and responsive design for the frontend.
+- Learn to use the **MVC (Model-View-Controller)** design pattern, which helps separate the logic of the application into three interconnected components: the **Model**, the **View**, and the **Controller**.
 
 ## Installation
 
