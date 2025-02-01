@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-image: url(../img/task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    position: absolute; 
+    z-index: 2; 
+}
+
+main {
+    position: relative;
+    z-index: 1; 
+    font-family: "Montserrat", serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63); 
+    z-index: -1; 
+    padding: 0;
+    margin: 0;
+}
