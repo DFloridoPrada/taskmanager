@@ -20,4 +20,10 @@ CREATE TABLE tareas (
 );
 
 CREATE USER 'tareas_app'@'localhost' identified by '1234';
+<<<<<<< HEAD
 GRANT SELECT, INSERT, UPDATE, DELETE on tareas_app.* to 'tareas_app'@'localhost';
+=======
+GRANT SELECT, INSERT, UPDATE, DELETE on tareas_app.* to 'tareas_app'@'localhost';
+
+1234→$2y$10$Hi3ab5GvmAFPEk.wEGzIE.uBTBeZLiBXikWhromtBBhRIVawFtXqa
+>>>>>>> 048bd86c341ccc636111bb909ef6f561e0513188

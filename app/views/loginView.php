@@ -4,7 +4,11 @@
 </head>
 <body class="h-screen bg-gradient-to-r from-green-400 to-blue-500 mx-auto flex items-center">
     <div class="container md:mx-auto sm:mx-auto mx-2 md:w-1/4 sm:w-1/2">
+<<<<<<< HEAD
         <form class="text-white">
+=======
+        <form class="text-white" method="POST">
+>>>>>>> 048bd86c341ccc636111bb909ef6f561e0513188
             <p class="mb-4 text-white">Please login to your account</p>
 
             <!--Username input-->
@@ -17,6 +21,10 @@
                 <input
                 type="text"
                 class="placeholder:text-white placeholder:text-opacity-70 bg-transparent border-2 border-white-500 border-opacity-70 rounded px-1 focus:border-pink-800"
+<<<<<<< HEAD
+=======
+                name="username"
+>>>>>>> 048bd86c341ccc636111bb909ef6f561e0513188
                 id="exampleFormControlInput1"
                 placeholder="Username" />
             </div>
@@ -31,6 +39,10 @@
                 <input
                 type="password"
                 class="placeholder:text-white placeholder:text-opacity-70 bg-transparent border-2 border-white-500 border-opacity-70 rounded px-1 focus:border-pink-800"
+<<<<<<< HEAD
+=======
+                name="password"
+>>>>>>> 048bd86c341ccc636111bb909ef6f561e0513188
                 id="exampleFormControlInput11"
                 placeholder="Password" />
             </div>
@@ -47,7 +59,11 @@
             <div class="mb-12 pb-1 pt-1 text-center">
                 <button
                 class="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-dark-3 transition duration-150 ease-in-out hover:shadow-dark-2 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:shadow-dark-2 dark:shadow-black/30"
+<<<<<<< HEAD
                 type="button"
+=======
+                type="submit"
+>>>>>>> 048bd86c341ccc636111bb909ef6f561e0513188
                 data-twe-ripple-init
                 data-twe-ripple-color="light"
                 style="
