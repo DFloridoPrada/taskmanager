@@ -59,5 +59,3 @@ To get started with this project, follow these steps:
 5. Create a new database in your preferred database management system (e.g., MySQL, MariaDB):
 
 - You can use the config in the file app/bd/database.sql
-
->>>>>>> 048bd86c341ccc636111bb909ef6f561e0513188
